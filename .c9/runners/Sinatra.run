@@ -1,0 +1,7 @@
+{
+    "cmd" : ["bash", "--login", "-c", "bundle exec shotgun -p $port -o $ip $args"],
+    "info" : "Sinatra started. App running at $url",
+    "env" : {},
+    "working_dir" : "$project_path",
+    "selector" : "source.rb"
+}

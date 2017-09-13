@@ -1,0 +1,50 @@
+header {
+    background-color: #244751;
+    color: #e8fdff;
+    text-indent: 25px;
+    justify-content: space-between;
+    
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: helvetica;
+}
+
+main {
+    background-color: white;
+    padding: 16px;
+}
+
+.post {
+    margin-bottom: 48px;
+}
+.post .user-info img {
+    border-radius: 50%;
+}
+
+.post .user-info:hover {
+    background-color: lightgrey ;
+}
+
+.post .user-info {
+    align-items: center;
+}
+
+.post .leftmargin {
+    margin-left: 5px;
+}
+
+
+.login-info {
+    margin-right: 25px;
+}
+
+header a, header a:visited {
+    color: #e8fdff;
+    transition: color 0.1s ease-out;
+}
+
+header a:hover {
+    color: #b5f9ff;
+}

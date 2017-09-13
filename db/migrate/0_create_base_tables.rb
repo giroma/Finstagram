@@ -14,8 +14,8 @@ class CreateBaseTables < ActiveRecord::Migration
       t.string :photo_url
       t.timestamps
     end
-
-    create_table :comments do |t|
+  
+      create_table :comments do |t|
       t.references :user
       t.references :post
       t.text :text
